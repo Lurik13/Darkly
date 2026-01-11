@@ -9,6 +9,5 @@ L’objectif est de parcourir récursivement tous les chemins jusqu’à trouver
 Le script automatise cette recherche en explorant chaque répertoire et en analysant le contenu des fichiers README jusqu’à trouver le bon.
 
 Pour éviter ce problème, il faut :
- - ne pas utiliser robots.txt comme protection
  - désactiver le listing de répertoires
  - bloquer l’accès aux chemins sensibles via la configuration du serveur (ex. Require all denied sur Apache ou autoindex off sur Nginx)
